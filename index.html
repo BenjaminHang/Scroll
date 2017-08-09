@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<title>Scroll Demo</title>
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div>
+<div class="scroll_demo">
+    <div class="title">
+        <ul>
+           <li>Game Publisher</li>
+        </ul>
+    </div>
+<div class="scroll_wrap">
+    <div class="scroll_content">
+        <ul>
+	        <li><img src="img/ubisoft.jpg" title="育碧"></li>
+	        <li><img src="img/2k.jpg" title="2K"></li>
+	        <li><img src="img/konami.jpg" title="科乐美"></li>
+	        <li><img src="img/THQ.jpg" title="THQ"></li>
+	        <li><img src="img/Nintendo.jpg" title="任天堂"></li>
+	        <li><img src="img/SNK.jpg" title="SNK"></li>
+	        <li><img src="img/Rockstar North.jpg" title="摇滚星北部"></li>
+	        <li><img src="img/Nexon.jpg" title="NEXON"></li>
+	        <li><img src="img/Koei.jpg" title="光荣"></li>
+	        <li><img src="img/iw.jpg" title="Infinity Ward"></li>
+	        <li><img src="img/enix.jpg" title="艾尼克斯"></li>
+	        <li><img src="img/EA.jpg" title="EA"></li>
+	        <li><img src="img/capcom.jpg" title="卡普空"></li>
+	        <li><img src="img/bungie.jpg" title="Bungie"></li>
+	        <li><img src="img/blizzard.jpg" title="暴雪"></li>
+	        <li><img src="img/Riot.jpg" title="拳头"></li>
+	        <li><img src="img/SEGA.jpg" title="世嘉"></li>
+	        <li><img src="img/gameloft.jpg" title="智乐软件"></li>
+        </ul>
+    </div>
+    <div class="scroll_bar">
+	    <div class="scroll_slider"></div>
+        </div>
+    </div>	
+</div>	
+</div>
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+<script type="text/javascript" src="scroll.js"></script>
+<script type="text/javascript">
+	new Scroll({
+		s_content : '.scroll_content',
+		s_bar : '.scroll_bar',
+		s_slider : '.scroll_slider',
+	})
+</script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+.scroll_demo{
+			border: 2px solid red;
+			width: 400px;
+			margin: 40px auto;
+			text-align: center;			
+		}
+		.title{
+			//border: 1px solid red;
+			font: 20px/2 'Microsoft Yahei';
+			color: rgba(255,255,0,1);
+			border-bottom: 2px solid red;
+			background: rgba(100,100,100,0.8);
+		}
+		.scroll_wrap{
+			//border: 1px solid red;
+			background: rgba(200,200,0,0.6);
+			width: 400px;
+			height: 400px;
+			position: relative;
+		}
+		.scroll_content{
+			//border: 1px solid red;
+			position: absolute;
+			overflow: hidden;
+			width: 393px;
+			height: 400px;
+		}
+		.scroll_content ul li{
+			//border: 1px solid red;
+			float: left;
+			font: 15px/1 'Microsoft Yahei';
+			margin: 5px 5px;
+			
+		}
+		.scroll_bar{
+			//border: 1px solid red;
+			position: relative;
+			float: right;
+			width: 7px;
+			height: 100%;
+			background: rgba(100,100,100,0.5);
+		}
+		.scroll_slider{
+			//border: 1px solid red;
+			position: absolute;
+			width: 6px;
+			height: 30%;
+			background: rgba(0,250,200,1.0);
+			border-radius: 3px;
+		}
