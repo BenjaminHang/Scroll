@@ -13,7 +13,7 @@
 		}
 		.scroll_wrap{
 			//border: 1px solid red;
-			background: rgba(200,200,0,0.6);
+			background: rgba(70,110,110,0.6);
 			width: 400px;
 			height: 400px;
 			position: relative;
@@ -43,8 +43,11 @@
 		.scroll_slider{
 			//border: 1px solid red;
 			position: absolute;
-			width: 6px;
+			width: 100%;
 			height: 30%;
-			background: rgba(0,250,200,1.0);
+			background: rgba(30,60,90,1.0);
 			border-radius: 3px;
+		}
+		.scroll_bar:hover,.scroll_bar:hover{
+			width: 11px;
 		}
