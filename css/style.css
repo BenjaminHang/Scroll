@@ -48,6 +48,6 @@
 			background: rgba(30,60,90,1.0);
 			border-radius: 3px;
 		}
-		.scroll_bar:hover,.scroll_bar:hover{
+		.scroll_bar:hover,.scroll_bar:active{
 			width: 11px;
 		}
